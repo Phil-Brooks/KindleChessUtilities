@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "KindleChessLib", "KindleChessLib\KindleChessLib.fsproj", "{1C36F6EF-1DB3-4D91-A312-2AD85D430F4A}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "KindleChessCmd", "KindleChessCmd\KindleChessCmd.fsproj", "{662F6B93-B56A-491E-AFF8-6BC62E8CA97D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{9E890ECE-F073-4676-A665-784D3188A588}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{AE231A22-E108-4AA2-944D-8B181D4C2DE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{300D9B16-ECDD-4EA6-AFD2-35A38153D7B0}"
+	ProjectSection(SolutionItems) = preProject
+		Sample\Inputs\Grob.pgn = Sample\Inputs\Grob.pgn
+		Sample\Inputs\Welcome.md = Sample\Inputs\Welcome.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outputs", "Outputs", "{84B243A3-0C03-4738-8DEE-DE3AAB19139B}"
+	ProjectSection(SolutionItems) = preProject
+		Sample\Outputs\book.css = Sample\Outputs\book.css
+		Sample\Outputs\book.ncx = Sample\Outputs\book.ncx
+		Sample\Outputs\book.opf = Sample\Outputs\book.opf
+		Sample\Outputs\CH1.html = Sample\Outputs\CH1.html
+		Sample\Outputs\CH2.html = Sample\Outputs\CH2.html
+		Sample\Outputs\cover.gif = Sample\Outputs\cover.gif
+		Sample\Outputs\toc.html = Sample\Outputs\toc.html
+		Sample\Outputs\Variations.html = Sample\Outputs\Variations.html
+		Sample\Outputs\Welcome.html = Sample\Outputs\Welcome.html
+	EndProjectSection
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.Markdown", "FSharp.Markdown\FSharp.Markdown.fsproj", "{CE5F442A-95AA-4D5A-A4CA-20FEE525FCC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{FDB62E27-4EF2-443A-9765-DF92A297182C}"
+	ProjectSection(SolutionItems) = preProject
+		Sample\Inputs\Templates\black.gif = Sample\Inputs\Templates\black.gif
+		Sample\Inputs\Templates\book.css = Sample\Inputs\Templates\book.css
+		Sample\Inputs\Templates\CH.dotl = Sample\Inputs\Templates\CH.dotl
+		Sample\Inputs\Templates\ncx.dotl = Sample\Inputs\Templates\ncx.dotl
+		Sample\Inputs\Templates\opf.dotl = Sample\Inputs\Templates\opf.dotl
+		Sample\Inputs\Templates\toc.dotl = Sample\Inputs\Templates\toc.dotl
+		Sample\Inputs\Templates\Variations.dotl = Sample\Inputs\Templates\Variations.dotl
+		Sample\Inputs\Templates\Welcome.dotl = Sample\Inputs\Templates\Welcome.dotl
+		Sample\Inputs\Templates\white.gif = Sample\Inputs\Templates\white.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{67F5532B-6459-422F-BB31-2D1D68071DB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C36F6EF-1DB3-4D91-A312-2AD85D430F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C36F6EF-1DB3-4D91-A312-2AD85D430F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C36F6EF-1DB3-4D91-A312-2AD85D430F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C36F6EF-1DB3-4D91-A312-2AD85D430F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662F6B93-B56A-491E-AFF8-6BC62E8CA97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662F6B93-B56A-491E-AFF8-6BC62E8CA97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662F6B93-B56A-491E-AFF8-6BC62E8CA97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662F6B93-B56A-491E-AFF8-6BC62E8CA97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5F442A-95AA-4D5A-A4CA-20FEE525FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5F442A-95AA-4D5A-A4CA-20FEE525FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5F442A-95AA-4D5A-A4CA-20FEE525FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5F442A-95AA-4D5A-A4CA-20FEE525FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300D9B16-ECDD-4EA6-AFD2-35A38153D7B0} = {AE231A22-E108-4AA2-944D-8B181D4C2DE8}
+		{84B243A3-0C03-4738-8DEE-DE3AAB19139B} = {AE231A22-E108-4AA2-944D-8B181D4C2DE8}
+		{FDB62E27-4EF2-443A-9765-DF92A297182C} = {300D9B16-ECDD-4EA6-AFD2-35A38153D7B0}
+		{67F5532B-6459-422F-BB31-2D1D68071DB7} = {300D9B16-ECDD-4EA6-AFD2-35A38153D7B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908FCE53-6BC0-42A7-9839-823E7EC1C20D}
+	EndGlobalSection
+EndGlobal

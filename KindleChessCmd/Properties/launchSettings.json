@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KindleChessCmd": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\GitHub\\KindleChessUtils\\Sample\\Inputs\\Grob.pgn\" \"D:\\GitHub\\KindleChessUtils\\Sample\\Inputs\\Templates\" \"D:\\GitHub\\KindleChessUtils\\Sample\\Inputs\\Images\" \"D:\\GitHub\\KindleChessUtils\\Sample\\Outputs\""
+    }
+  }
+}

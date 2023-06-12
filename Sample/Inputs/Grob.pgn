@@ -1,0 +1,29 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2021.12.03"]
+[Round "?"]
+[White "Main Line"]
+[Black "?"]
+[Result "*"]
+[ECO "A00"]
+[Annotator "phil"]
+[PlyCount "7"]
+[EventDate "2021.??.??"]
+[SourceVersionDate "2021.12.03"]
+
+1. g4 $6 d5 2. Bg2 c6 {Black **wisely** declines the sacrifice.} 3. g5 e5 {
+[#] Most logical choice} (3... h6 {[#]} 4. h4) 4. d4 $15 *
+
+[Event "?"]
+[Site "?"]
+[Date "2021.12.03"]
+[Round "?"]
+[White "Accepted"]
+[Black "?"]
+[Result "*"]
+[ECO "A00"]
+[PlyCount "4"]
+[SourceVersionDate "2021.12.03"]
+
+1. g4 d5 2. Bg2 Bxg4 *
+
